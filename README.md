@@ -1,20 +1,15 @@
-# Image Cryptography Based on Rubix's Cube Principle
+# Image Cryptography .txt less version
 
-Implementation of image encryption and decryption using Rubix's Cube Principle. This algorithm is based on 
-the paper which can be found at https://www.hindawi.com/journals/jece/2012/173931/
+[dannyi96's repository](https://github.com/dannyi96/Image-Cryptography)の改変
 
-## Prerequisites
+## 環境設定
 
-You need to have Python2 on your system. Follow instructions at https://www.python.org/downloads/  
-You also need to install numpy and Image libraries.
-
-On Ubuntu
 ```
-sudo apt-get install python-numpy
-sudo apt-get install python-imaging
+pip install pipenv
+pipenv sync
 ```
 
-## Running 
+## 起動方法
 
 1. To encrypt an image, first place that image in the ```input/``` folder  
 2. Then run  
